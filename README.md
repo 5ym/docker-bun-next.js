@@ -17,4 +17,4 @@ docker compose up -d
 ```
 
 Look  
-<https://app.localhsot>
+<https://app.localhost>
