@@ -5,7 +5,7 @@ USER node
 COPY --chown=node:node package.json .
 COPY --chown=node:node bun.lockb .
 COPY --chown=node:node bunfig.toml .
-RUN bun i -p
+RUN bun i
 COPY --chown=node:node . .
 RUN bun run next build
 EXPOSE 3000
