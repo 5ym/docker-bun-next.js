@@ -11,8 +11,8 @@ services:
       - docker_default
       - default
     labels:
-      - "traefik.http.routers.twit.rule=Host(`twit.localhost`)"
-      - "traefik.http.routers.twit.tls=true"
+      - "traefik.http.routers.app.rule=Host(`app.localhost`)"
+      - "traefik.http.routers.app.tls=true"
 
 networks:
   docker_default:
