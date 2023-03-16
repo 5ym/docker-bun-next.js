@@ -6,7 +6,7 @@ services:
       network: host
     command: dev
     volumes:
-      - .:/home/bun/app
+      - .:/usr/src/app
     networks:
       - docker_default
       - default
