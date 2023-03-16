@@ -14,7 +14,7 @@ Build the following environment first
 ```sh
 cp docker-compose.sample.yml docker-compose.yml
 docker compose run --rm app i
-docker compose up -d
+docker compose up
 ```
 
 Look  
