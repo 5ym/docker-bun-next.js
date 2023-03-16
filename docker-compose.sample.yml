@@ -5,8 +5,8 @@ services:
       context: .
       network: host
     command: dev
-    # volumes:
-    #   - .:/usr/src/app
+    volumes:
+      - .:/usr/src/app
     networks:
       - docker_default
       - default

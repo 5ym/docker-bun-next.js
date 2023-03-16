@@ -2,3 +2,5 @@
 /node_modules.*
 /Dockerfile
 /.next
+/docker-compose.yml
+/docker-compose.sample.yml
