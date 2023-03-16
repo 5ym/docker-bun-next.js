@@ -15,3 +15,6 @@ Build the following environment first
 cp docker-compose.sample.yml docker-compose.yml
 docker compose up -d
 ```
+
+Look  
+<https://app.localhsot>
