@@ -1,5 +1,5 @@
 {
-  "name": "twit",
+  "name": "app",
   "version": "0.0.135",
   "dependencies": {
     "@types/node": "^18.15.3",

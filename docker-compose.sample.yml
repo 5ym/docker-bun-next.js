@@ -1,12 +1,12 @@
 version: '3.8'
 services:
-  twit:
+  app:
     build:
       context: .
       network: host
     command: dev
     volumes:
-      - .:/usr/src/app
+      - .:/home/bun/app
     networks:
       - docker_default
       - default
